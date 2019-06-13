@@ -3,8 +3,8 @@ var line = [];
 
 function takeANumber(line, name){
   line.push(name);
-  console.log("Welcome, " + name + ". You are number " + line.length + " in line.");
-  return "Welcome, " + name + ". You are number " + line.length + " in line."
+  var  message = console.log("Welcome, " + name + ". You are number " + line.length + " in line.");
+  return message
 }
 function nowServing(line) {
   if(!line.length) {
