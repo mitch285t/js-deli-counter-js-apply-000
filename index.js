@@ -9,7 +9,7 @@ function takeANumber(line, name){
 function nowServing(line) {
   if(!line.length) {
     var msg = console.log("There is nobody waiting to be served!")
-    return "There is nobody waiting to be served!"
+    return msg
   } else {
     return "Currently serving " + line.shift()+".";
   }
