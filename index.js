@@ -3,7 +3,7 @@ var line = [];
 
 function takeANumber(line, name){
   line.push(name);
-  var  message = console.log("Welcome, " + name + ". You are number " + line.length + " in line.");
+   console.log("Welcome, " + name + ". You are number " + line.length + " in line.");
   return message
 }
 function nowServing(line) {
